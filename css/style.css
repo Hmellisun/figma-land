@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    height: 100hv;
+    color: #FFFFFF;
+    text-align: center;
+}
+#nav-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1210px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 156px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 78px;
+    gap: 10px;
+}
+.nav-item {
+    padding: 0 10px;
+    gap: 10px;
+    text-decoration: none;   
+}
+.logo {
+    height: 58px;
+    padding: 0 20px;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media img {
+    height: 40px;
+    width: 40px;
+    margin: 0 20px;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 826px;
+    padding: 20px;
+    gap: 10px;
+}
+.header-img {
+    position: relative;
+    height: 930px;
+    background-image: url('../img/background_desktop.png');
+    background-size: cover;
+    background-position: top
+}
+
+.header-title {
+    padding: 80px 0 80px 0;
+    gap: 40px;
+}
+.header-title h1 {
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center;
+    padding: 10px;    
+}
+.header-title h4 {
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* product section */
+.product-section {
+    color: #252B42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 870px;
+    width: 100%;
+}
+.product-section-text h2{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+}
+.cta-button {
+    width: 236px;
+    background-color: #2091F9;
+    border-radius: 35px;
+    border: 0;
+    padding: 16px 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+.cta-button:hover {
+    background-color: #1879d4;
+}
+
+/* footer */
+
+footer {
+    color: #FFFFFF;
+    background-color:#252B42;
+    padding: 80px 0 80px 0;
+}
