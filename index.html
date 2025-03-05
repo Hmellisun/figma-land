@@ -7,21 +7,47 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-       <div>
+        <div class="mobile-view">
+            <div class="mobile-header-img">
+                <div class="mobile-header">
+                    <img class="logo" src="img/logo_figma_land.png" alt="logo figma land">
+                    <div class="burger-menu">
+                        <div class="burger-icon" onclick="toggleMenu()">
+                           <img src="img/bx_bx-menu-alt-right.png" alt="burger menu">
+                        </div>
+                            <nav class="mobile-nav">
+                                <a class="nav-item" href="#">Home</a>
+                                <a class="nav-item" href="#">Product</a>
+                                <a class="nav-item" href="#">Pricing</a>
+                                <a class="nav-item" href="#">About</a>
+                                <a class="nav-item" href="#">Contact</a>
+                            </nav>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="header-title">
+                        <h1> The best products start with Figma</h1> 
+                        <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+                    </div>
+                    <button class="cta-button">Try For Free</button>
+                </div>
+            </div>
+        </div>
+       <div class="desktop-view">
            <div class="header-img">
                <div id="nav-container">
                 <div>
                     <nav class="nav" >
                         <div class="nav-menu">
-                            <a class="nav-item" href="#"></a>Home</li>
-                            <a class="nav-item" href="#"></a>Product</li>
-                            <a class="nav-item" href="#"></a>Pricing</li>
-                            <a class="nav-item" href="#"></a>About</li>
-                            <a class="nav-item" href="#"></a>Contact</li>
+                            <a class="nav-item" href="#">Home</a>
+                            <a class="nav-item" href="#">Product</a>
+                            <a class="nav-item" href="#">Pricing</a>
+                            <a class="nav-item" href="#">About</a>
+                            <a class="nav-item" href="#">Contact</a>
                             <img class="logo" src="img/logo_figma_land.png" alt="logo figma land">
                         </div>
                          <div class="social-media">
@@ -49,5 +75,6 @@
     </section>
    </main>
    <footer>Annette Steward</footer>
+   <script src="./js/script.js"></script>
 </body>
 </html>
